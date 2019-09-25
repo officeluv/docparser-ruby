@@ -41,3 +41,18 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Docparser::Ruby project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/officeluv/docparser-ruby/blob/master/CODE_OF_CONDUCT.md).
+
+document, parser, webhook
+
+payload = 'laksdjflkj'
+webhook = Docparser::Webhook.new(payload)
+document = webhook.document
+document.id # 'foo'
+document.parser # instance of Docparser::Parser
+Docparser::Parser.list_all
+parser = Docparser::Parser.new(name: 'foo')
+parser.id # 'foobar'
+document.parsed_data # 'some strructure specific to parser + document
+document.parsed?
+document.send
+document.file
