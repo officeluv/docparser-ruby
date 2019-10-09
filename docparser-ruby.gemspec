@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["michaelginalick"]
   spec.email         = ["michael@officeluv.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "A wrapper for consuming the docparser API"
   spec.homepage      = "https://github.com/officeluv/docparser-ruby"
   spec.license       = "MIT"
 

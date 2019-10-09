@@ -1,3 +1,4 @@
+# typed: false
 RSpec.describe Docparser do
   it "has a version number" do
     expect(Docparser::VERSION).not_to be nil
